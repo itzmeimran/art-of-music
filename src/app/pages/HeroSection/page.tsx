@@ -1,5 +1,5 @@
+import { Spotlight } from "@/app/components/ui/Spotlight";
 import { Button } from "@/app/components/ui/moving-border";
-import { Spotlight } from "@/app/components/ui/spotlight";
 import React from "react";
 
 function index() {
