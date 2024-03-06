@@ -56,7 +56,9 @@ export function Navbar({ className }: { className?: string }) {
                 <div className="flex flex-col space-y-4 text-sm">
                   {" "}
                   {item?.children?.map((child) => (
-                    <HoveredLink href={child.link}>{child.name}</HoveredLink>
+                    <HoveredLink href={child.link} key={child.name}>
+                      {child.name}
+                    </HoveredLink>
                   ))}
                 </div>
               )}
