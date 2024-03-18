@@ -6,6 +6,16 @@ interface CourseData {
   published: boolean;
   link: string;
   price: number;
+  courseOverview: [
+    string,
+    string,
+    string,
+    string,
+    string,
+    string,
+    string,
+    string
+  ];
 }
 
 export const courseData: CourseData[] = [
@@ -19,6 +29,16 @@ export const courseData: CourseData[] = [
     published: true,
     link: "courseDetails",
     price: 29.99, // Adjust the price as needed
+    courseOverview: [
+      "Beginner to Pro",
+      "12H of HD Video",
+      "200 lessons",
+      "Downloadable content",
+      "Hands-on excercise",
+      "English captions",
+      "Lifetime access",
+      "Learn at your own pace",
+    ],
   },
   {
     id: 2,
@@ -30,6 +50,16 @@ export const courseData: CourseData[] = [
     published: true,
     link: "courseDetails/Advanced-Vocal-Training",
     price: 39.99, // Adjust the price as needed
+    courseOverview: [
+      "Beginner to Pro",
+      "12H of HD Video",
+      "200 lessons",
+      "Downloadable content",
+      "Hands-on excercise",
+      "English captions",
+      "Lifetime access",
+      "Learn at your own pace",
+    ],
   },
   {
     id: 3,
@@ -41,6 +71,16 @@ export const courseData: CourseData[] = [
     published: true,
     link: "courseDetails/Music-Production-Fundamentals",
     price: 49.99, // Adjust the price as needed
+    courseOverview: [
+      "Beginner to Pro",
+      "12H of HD Video",
+      "200 lessons",
+      "Downloadable content",
+      "Hands-on excercise",
+      "English captions",
+      "Lifetime access",
+      "Learn at your own pace",
+    ],
   },
   {
     id: 4,
@@ -52,6 +92,16 @@ export const courseData: CourseData[] = [
     published: true,
     link: "courseDetails/Piano-MasterClass",
     price: 44.99, // Adjust the price as needed
+    courseOverview: [
+      "Beginner to Pro",
+      "12H of HD Video",
+      "200 lessons",
+      "Downloadable content",
+      "Hands-on excercise",
+      "English captions",
+      "Lifetime access",
+      "Learn at your own pace",
+    ],
   },
   {
     id: 5,
@@ -63,5 +113,15 @@ export const courseData: CourseData[] = [
     published: true,
     link: "courseDetails/Song-Writing-Workshop",
     price: 34.99, // Adjust the price as needed
+    courseOverview: [
+      "Beginner to Pro",
+      "12H of HD Video",
+      "200 lessons",
+      "Downloadable content",
+      "Hands-on excercise",
+      "English captions",
+      "Lifetime access",
+      "Learn at your own pace",
+    ],
   },
 ];
